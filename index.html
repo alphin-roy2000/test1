@@ -16,8 +16,11 @@
             <div class="left-side">
                 <nav class="left-nav">
                     <div class="logo"><a href=""><img src="./AR wepage assets/logo.svg" width="50px" alt=""></a></div>
-                    <ul><li><a href=""></a></li>
-                        <li><a href=""></a></li>
+                    <div class="burger-display"><div class="burger burger-squeeze">
+                        <div class="burger-lines"></div>
+                      </div></div>
+                    <ul><li><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
                     </ul>
@@ -28,7 +31,14 @@
 
     </div>
 
-
+    <script>document.addEventListener("DOMContentLoaded", function (event) {
+        const list = document.getElementsByClassName('burger')
+    
+        for (const element of list)
+          element.addEventListener('click', function (e) {
+            element.classList.toggle('open');
+          });
+      });</script>
 </body>
 
 </html>
