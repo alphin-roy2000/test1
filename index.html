@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./AR wepage assets/titleicon.png">
     <link rel="stylesheet" href="./AR wepage assets/style.css">
+    <link rel="stylesheet" href="./AR wepage assets/js01.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Alphin Roy</title>
 </head>
 
@@ -25,11 +27,55 @@
                         <!-- <li><a href=""></a></li> -->
                     </ul>
                 </nav>
+                <div class="name-display"><h1 class="hi-there">Hey I'm Alphin!</h1>
+                    <h2 class="quote">"Everything is connected" 😅</h2></div>
+                
+
+
+                <!-- <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">Alphin  Roy</text>
+                    </symbol>
+                
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg> -->
+
+
+                
+                <div class="navtobottom"></div>
             </div>
 
         </section>
 
     </div>
+    <!-- <script>// Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml12');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        
+        anime.timeline({loop: false})
+          .add({
+            targets: '.ml12 .letter',
+            translateX: [40,0],
+            translateZ: 0,
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 1200,
+            delay: (el, i) => 500 + 30 * i
+         })//add({
+        //     targets: '.ml12 .letter',
+        //     translateX: [0,-30],
+        //     opacity: [1,0],
+        //     easing: "easeInExpo",
+        //     duration: 1100,
+        //     delay: (el, i) => 100 + 30 * i
+        //   })
+        ;</script> -->
 
     <script>document.addEventListener("DOMContentLoaded", function (event) {
         const list = document.getElementsByClassName('burger')
