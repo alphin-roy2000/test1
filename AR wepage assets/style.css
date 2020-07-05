@@ -18,7 +18,7 @@ body{
 .left-side{
     position: relative;
     background: #121212;
-    width:50vw;
+    width:40vw;
     height: 100vh;
 }
 .left-nav{
@@ -36,14 +36,17 @@ nav ul li a{
 nav{
 	padding-top: 4rem;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	text-transform: uppercase;
 	font-size: .7rem;
 }
 
 nav ul{
-	display: flex;
+  position: absolute;
+  display: flex;
+  right: 0;
+  margin-right: 20px;
+  
 }
 /* 
 nav ul li{
@@ -120,8 +123,7 @@ nav ul li a::after{
 nav ul li a:hover::before,
 nav ul li a:hover::after{
 	transform: scaleX(1);
-} */
-
+} 
 .logo{
 
     margin-left: 40px;
@@ -132,7 +134,7 @@ nav ul li a:hover::after{
     position: absolute;
     right: 0;
     
-    /* display: none; */
+    display: none;
 }
 /* burger start */
 .burger {
