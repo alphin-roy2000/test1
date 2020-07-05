@@ -302,14 +302,28 @@ animation-delay: -5s;
 }
 .right-side{
   height: 100vh;
-  width: 60vw;
+  width: 61vw;
+  z-index: -99;
   position: absolute;
   top: 0;
   right: 0;
-  /* background-image: url(./bg1.jpg);
+   /* background-image: url(./logo.svg); */
+  
+  
+}
+.right-side::after {
+  content: "";
+  background: url(./logo.svg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat; 
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 .mypic img{
   height: 250px;
