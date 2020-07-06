@@ -41,19 +41,7 @@
 
 
 
-                <!-- <svg viewBox="0 0 960 300">
-                    <symbol id="s-text">
-                        <text text-anchor="middle" x="50%" y="80%">Alphin  Roy</text>
-                    </symbol>
-                
-                    <g class = "g-ants">
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                        <use xlink:href="#s-text" class="text-copy"></use>
-                    </g>
-                </svg> -->
+               
 
 
 
@@ -72,17 +60,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="mouse_scroll">
-
-                    <div class="mouse">
-                        <div class="wheel"></div>
-                    </div>
-                    <div>
-                        <span class="m_scroll_arrows unu"></span>
-                        <span class="m_scroll_arrows doi"></span>
-                        <span class="m_scroll_arrows trei"></span>
-                    </div>
-            </div> -->
+            
 
             </div>
             <div class="right-side">
@@ -119,7 +97,35 @@
         </footer>
 
     </div>
-    <!-- <script>// Wrap every letter in a span
+    
+
+    <script>document.addEventListener("DOMContentLoaded", function (event) {
+            const list = document.getElementsByClassName('burger')
+
+            for (const element of list)
+                element.addEventListener('click', function (e) {
+                    element.classList.toggle('open');
+                });
+        });</script>
+</body>
+
+</html>
+
+ <!-- <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">Alphin  Roy</text>
+                    </symbol>
+                
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg> -->
+
+                <!-- <script>// Wrap every letter in a span
         var textWrapper = document.querySelector('.ml12');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
         
@@ -142,14 +148,14 @@
         //   })
         ;</script> -->
 
-    <script>document.addEventListener("DOMContentLoaded", function (event) {
-            const list = document.getElementsByClassName('burger')
+         <!-- <div class="mouse_scroll">
 
-            for (const element of list)
-                element.addEventListener('click', function (e) {
-                    element.classList.toggle('open');
-                });
-        });</script>
-</body>
-
-</html>
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                        <span class="m_scroll_arrows trei"></span>
+                    </div>
+            </div>

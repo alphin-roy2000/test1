@@ -21,11 +21,13 @@ body{
 .left-side{
     position: relative;
     background: #121212;
-    max-width:600px;
+    width: 600px;
     height: 100vh;
+    margin-right: 0;
 }
 .left-nav{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -326,11 +328,15 @@ animation-delay: -5s;
   position: absolute;
   z-index: -1;   
 }
+.mypic{
+  position: absolute;
+  bottom: 35%;
+  left: 30%;
+  /* transform: translate(50%,50%); */
+}
 .mypic img{
   height: 250px;
   border-radius: 150px;
-  margin-top: 200px;
-  margin-left: 300px;
 }
 .navtobottom{
   position: absolute;
@@ -739,10 +745,12 @@ footer{
 }
 @media screen and (max-width:1153px){
   .left-side{
-    width: 100vw;
-    margin-right: 0;
+    width: 100%;
   }
   .right-side{
+    width: 100%;
+    min-height: 100vh;
     position: relative;
-    width: 100vw; }
-}
+    
+}}
+
