@@ -753,6 +753,14 @@ footer{
     width: 100%;
     min-height: 100vh;
     position: relative;
+
     
+}
+.burger-display{
+  display: inline;
+}
+.topnav{
+  display: none;
 }}
 
+/* loading screen */
