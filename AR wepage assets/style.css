@@ -737,3 +737,12 @@ h4:after {
 footer{
   height: 80vh;
 }
+@media screen and (max-width:1153px){
+  .left-side{
+    width: 100vw;
+    margin-right: 0;
+  }
+  .right-side{
+    position: relative;
+    width: 600px; }
+}
