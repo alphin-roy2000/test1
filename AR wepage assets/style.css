@@ -5,11 +5,13 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 body{
     
 
     font-family: 'Nanum Gothic', sans-serif;
+    
     
 }
 .section1{
@@ -349,7 +351,7 @@ animation-delay: -5s;
 
 }
 .navtobottom ul li a:hover{
-  margin: 10px;
+  margin-bottom: 10px;
   color: #30CFD0 ;
   font-size: 18px;
 
@@ -726,3 +728,12 @@ h4:after {
   border-bottom: 1px solid #30CFD0; 
   margin: auto; 
 } 
+
+/* end of section 1 */
+/* section2 -about me */
+.aboutme{
+  height: 100vh;
+}
+footer{
+  height: 80vh;
+}

@@ -10,7 +10,8 @@
     <link rel="stylesheet/scss" href="./AR wepage assets/css01.scss">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Alphin Roy</title>
 </head>
 
@@ -21,18 +22,23 @@
             <div class="left-side">
                 <nav class="left-nav">
                     <div class="logo"><a href=""><img src="./AR wepage assets/logo.svg" width="50px" alt=""></a></div>
-                    <div class="burger-display"><div class="burger burger-squeeze">
-                        <div class="burger-lines"></div>
-                      </div></div>
-                    <ul><li><a class="active" href="">Home</a></li>
+                    <div class="burger-display">
+                        <div class="burger burger-squeeze">
+                            <div class="burger-lines"></div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a class="active" href="">Home</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Portfolio</a></li>
                         <!-- <li><a href=""></a></li> -->
                     </ul>
                 </nav>
-                <div class="name-display"><h1 class="hi-there">Hey I'm Alphin!</h1>
-                    <h2 class="quote">"Everything is connected" 😅</h2></div>
-                
+                <div class="name-display">
+                    <h1 class="hi-there">Hey I'm Alphin!</h1>
+                    <h2 class="quote">"Everything is connected" 😅</h2>
+                </div>
+
 
 
                 <!-- <svg viewBox="0 0 960 300">
@@ -50,20 +56,22 @@
                 </svg> -->
 
 
-                
+
                 <div class="navtobottom">
                     <ul>
-                        <li><a href="">About Me</a></li>
+                        <li><a href="#aboutme">About Me</a></li>
                         <li></li>
-                        <li><a href="">Contacts</a></li>
+                        <li><a href="#contact">Contacts</a></li>
                     </ul>
-                    
-                    
+
+
                 </div>
-                <div class="navtobottomarrow"><div id="section07" class="demo">
-                    <a href="#section08"><span></span><span></span><span></span></a>
-                </div></div>
-                
+                <div class="navtobottomarrow">
+                    <div id="section07" class="demo">
+                        <a href="#aboutme"><span></span><span></span><span></span></a>
+                    </div>
+                </div>
+
                 <!-- <div class="mouse_scroll">
 
                     <div class="mouse">
@@ -82,27 +90,33 @@
                 <div class="socialmedia1">
                     <!-- <h4>Checkout</h4>  -->
                     <a class="btn fb" href="https://www.facebook.com/alphin.roy">
-                      <i class="fa fa-facebook"></i>
+                        <i class="fa fa-facebook"></i>
                     </a>
                     <a class="btn twitter" href="https://github.com/alphin-roy2000">
-                      <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter"></i>
                     </a>
                     <a class="btn google" href="mailto:alphinroy430@gmail.com">
-                      <i class="fab fa-google"></i>
+                        <i class="fab fa-google"></i>
                     </a>
                     <a class="btn insta" href="https://www.instagram.com/alphin_roy2000/">
-                      <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="btn youtube" href="https://www.youtube.com/channel/UCqIgEl7cnKF3sa2m2lw3Euw?view_as=subscriber">
-                      <i class="fab fa-youtube"></i>
+                    <a class="btn youtube"
+                        href="https://www.youtube.com/channel/UCqIgEl7cnKF3sa2m2lw3Euw?view_as=subscriber">
+                        <i class="fab fa-youtube"></i>
                     </a>
-                  </div>
-                
+                </div>
+
             </div>
-            
+
 
         </section>
-        <footer></footer>
+        <section class="aboutme" id="aboutme"></section>
+        <footer class="contactclss" id="contact">
+            <div class="leftfooter"></div>
+            <div class="center"></div>
+            <div class="rightfooter"></div>
+        </footer>
 
     </div>
     <!-- <script>// Wrap every letter in a span
@@ -129,13 +143,13 @@
         ;</script> -->
 
     <script>document.addEventListener("DOMContentLoaded", function (event) {
-        const list = document.getElementsByClassName('burger')
-    
-        for (const element of list)
-          element.addEventListener('click', function (e) {
-            element.classList.toggle('open');
-          });
-      });</script>
+            const list = document.getElementsByClassName('burger')
+
+            for (const element of list)
+                element.addEventListener('click', function (e) {
+                    element.classList.toggle('open');
+                });
+        });</script>
 </body>
 
 </html>
