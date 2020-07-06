@@ -16,7 +16,7 @@ body{
 }
 .section1{
     margin: 0;
-    height: 100vh;
+    height: 100%;
 }
 .left-side{
     position: relative;
@@ -738,6 +738,8 @@ h4:after {
 /* end of section 1 */
 /* section2 -about me */
 .aboutme{
+  
+  background-color: blue;
   height: 100vh;
 }
 footer{
