@@ -13,6 +13,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <title>Alphin Roy</title>
+        <link rel="stylesheet" href="swiper.min.css">
+        <style>
+   
+            .swiper-container {
+              width: 50%;
+              padding-top: 50px;
+              padding-bottom: 50px;
+            }
+            .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              width: 80%;
+              height: 400px;
+        
+            }
+            @media screen and (max-width:1153px){
+                .swiper-container {
+              width: 95%;
+              padding-top: 50px;
+              padding-bottom: 50px;
+            }
+            
+            }
+          </style>
+          <script src="swiper.min.js"></script>
 </head>
 
 <body>
@@ -96,6 +121,23 @@
 
         </section>
         <section class="aboutme" id="aboutme"></section>
+        <section class="image_slide"><div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(assets/sec1.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/sec2.jpg)"></div>
+             <div class="swiper-slide" style="background-image:url(assets/sec3.jpg)"></div>
+              <!--  <div class="swiper-slide" style="background-image:url(assets/nature-4.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/nature-5.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/nature-6.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/nature-7.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/nature-8.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/nature-9.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(assets/nature-10.jpg)"></div> -->
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+         </section>
         <footer class="contactclss" id="contact">
             <div class="leftfooter"></div>
             <div class="center"></div>
