@@ -723,7 +723,7 @@ animation-delay: -5s;
     left: -10%;
   }
 }
-h4 { 
+/* h4 { 
   display: flex; 
   flex-direction: row; 
   color: #30CFD0;
@@ -735,7 +735,7 @@ h4:after {
   flex: 1 1; 
   border-bottom: 1px solid #30CFD0; 
   margin: auto; 
-} 
+}  */
 
 /* end of section 1 */
 /* section2 -about me */
@@ -848,3 +848,44 @@ footer{
 }
 
 /* loading screen */
+/* footer start*/
+footer{
+  position: absolute;
+  background-color: #222222;
+  width: 100%;
+}
+.copyright h5{
+  font-weight: 400;
+  color: #707070;
+  
+}
+.copyright h5 a{
+  color: #30CFD0;
+  font-family: 'Alegreya', serif;
+}
+.copyright{
+  margin-bottom: 20px; 
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.phonenumber a{
+  color: rgba(255, 255, 255, 0.842);
+  /* font-size: 15px; */
+}
+.phonenumber a h4{
+  font-weight: 200;
+  font-size: 13px;
+}
+.copyrightabove{
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+}
+hr.copyrightline {
+  /* height: 4px; */border: 0.5px solid rgba(255, 255, 255, 0.438);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
