@@ -926,7 +926,10 @@ hr.copyrightline {
 }
 .mysocials ul{
   text-align: center;
-  display: inline-flex;
+  display: inline-block;
+}
+.mysocials ul li{
+  display: inline-block;
 }
 .mysocials ul li a{
   display: inline-block;
@@ -994,4 +997,24 @@ hr.copyrightline {
 .sitemap ul li a:hover{
   
   color: rgba(139, 200, 233, 0.842);
+}
+@media screen and (max-width:761px){
+  footer{
+    height: 100%;
+    width: 100%;
+    display: inline;
+  }
+  .leftfooter{
+    margin-bottom: 0;
+  }
+  
+  .sitemap{
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .line{
+    display: none;
+  }
+  
 }
