@@ -353,12 +353,14 @@ animation-delay: -5s;
 
 }
 .navtobottom ul li a{
+  
   color: white;
   font-size: 15px;
 
 
 }
 .navtobottom ul li a:hover{
+  
   margin-bottom: 10px;
   color: #30CFD0 ;
   font-size: 18px;
@@ -581,6 +583,7 @@ animation-delay: -5s;
   bottom: 0;
 }
 #section07 a {
+  cursor: pointer;
   padding-top: 80px;
 
 }
@@ -745,7 +748,7 @@ h4:after {
   height: 100vh;
 }
 footer{
-  height: 80vh;
+  height: 400px;
 }
 .ar-below-line{
   visibility: hidden;
@@ -850,6 +853,7 @@ footer{
 /* loading screen */
 /* footer start*/
 footer{
+  display: inline-flex;
   position: absolute;
   background-color: #222222;
   width: 100%;
@@ -890,9 +894,11 @@ hr.copyrightline {
   margin-right: auto;
 }
 .leftfooter{
-  position: absolute;
+  /* position: absolute; */
  
-    transform: translate(100px,100px);
+    /* transform: translate(100px,100px); */
+    
+    margin: 100px 70px;
 
 }
 .footerimage{
@@ -948,4 +954,44 @@ hr.copyrightline {
 .mysocials ul li a:hover i{
   color: rgba(255, 255, 255, 0.863);
   
+}
+.line{
+  /* position: absolute;
+  transform: translate(500px,0px); */
+  width: 10px;
+  height:100%;
+}
+.outer {
+  width: 1px;
+  height: 100%;
+  
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+  box-shadow: 0px 0px 30px 20px grey;
+}
+.sitemap{
+  margin: 100px 70px;
+}
+.sitemap h2{
+  color: rgba(25, 159, 212, 0.849);
+  font-size: 17px;
+  font-weight: 500;
+}
+.sitemap ul li{
+  margin-top: 5px;
+}
+.sitemap ul li a{
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.842);
+}
+.sitemap ul li a:hover{
+  
+  color: rgba(139, 200, 233, 0.842);
 }

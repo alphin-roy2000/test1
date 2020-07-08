@@ -12,32 +12,33 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <title>Alphin Roy</title>
-        <link rel="stylesheet" href="swiper.min.css">
-        <style>
-   
+    <title>Alphin Roy</title>
+    <link rel="stylesheet" href="swiper.min.css">
+    <style>
+        .swiper-container {
+            width: 50%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 80%;
+            height: 400px;
+
+        }
+
+        @media screen and (max-width:1153px) {
             .swiper-container {
-              width: 50%;
-              padding-top: 50px;
-              padding-bottom: 50px;
+                width: 95%;
+                padding-top: 50px;
+                padding-bottom: 50px;
             }
-            .swiper-slide {
-              background-position: center;
-              background-size: cover;
-              width: 80%;
-              height: 400px;
-        
-            }
-            @media screen and (max-width:1153px){
-                .swiper-container {
-              width: 95%;
-              padding-top: 50px;
-              padding-bottom: 50px;
-            }
-            
-            }
-          </style>
-          <script src="swiper.min.js"></script>
+
+        }
+    </style>
+    <script src="swiper.min.js"></script>
 </head>
 
 <body>
@@ -45,7 +46,7 @@
         <!------------------------------------Section 1------------------------------------------------->
         <section class="section1">
             <div class="left-side">
-                
+
                 <nav class="left-nav">
                     <div class="logo"><a href=""><img src="./AR wepage assets/logo.svg" width="50px" alt=""></a></div>
                     <div class="burger-display">
@@ -54,11 +55,11 @@
                         </div>
                     </div>
                     <div class="menu-overlay"></div>
-                   
+
                     <div class="logo-nav-display"><img src="./AR wepage assets/logo.svg" width="50px" alt=""></div>
                     <hr class="ar-below-line">
-                    <ul class="topnav" >
-                       
+                    <ul class="topnav">
+
                         <li><a class="active" href="">Home</a></li>
                         <li><a href="./blog.html">Blog</a></li>
                         <li><a href="./portfolio.html">Portfolio</a></li>
@@ -72,7 +73,7 @@
 
 
 
-               
+
 
 
 
@@ -87,31 +88,36 @@
                 </div>
                 <div class="navtobottomarrow">
                     <div id="section07" class="demo">
-                        <a href="#aboutme"><span></span><span></span><span></span></a>
+                        <a onclick="topFunction()"><span></span><span></span><span></span></a>
                     </div>
                 </div>
 
-            
+
 
             </div>
             <div class="right-side">
                 <div class="mypic"><img src="./AR wepage assets/mine.jpg" alt=""></div>
                 <div class="socialmedia1">
                     <!-- <h4>Checkout</h4>  -->
-                    <a class="btn fb" href="https://www.facebook.com/alphin.roy" target="_blank" rel="noopener noreferrer">
+                    <a class="btn fb" href="https://www.facebook.com/alphin.roy" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a class="btn twitter" href="https://twitter.com/alphinroy" target="_blank" rel="noopener noreferrer">
+                    <a class="btn twitter" href="https://twitter.com/alphinroy" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a class="btn google" href="mailto:alphinroy430@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a class="btn google" href="mailto:alphinroy430@gmail.com" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fab fa-google"></i>
                     </a>
-                    <a class="btn insta" href="https://www.instagram.com/alphin_roy2000/" target="_blank" rel="noopener noreferrer">
+                    <a class="btn insta" href="https://www.instagram.com/alphin_roy2000/" target="_blank"
+                        rel="noopener noreferrer">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <a class="btn youtube"
-                        href="https://www.youtube.com/channel/UCqIgEl7cnKF3sa2m2lw3Euw?view_as=subscriber" target="_blank" rel="noopener noreferrer">
+                        href="https://www.youtube.com/channel/UCqIgEl7cnKF3sa2m2lw3Euw?view_as=subscriber"
+                        target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
@@ -121,50 +127,87 @@
 
         </section>
         <section class="aboutme" id="aboutme"></section>
-        <section class="image_slide"><div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide" style="background-image:url(assets/sec1.jpg)"></div>
-              <div class="swiper-slide" style="background-image:url(assets/sec2.jpg)"></div>
-             <div class="swiper-slide" style="background-image:url(assets/sec3.jpg)"></div>
-              <!--  <div class="swiper-slide" style="background-image:url(assets/nature-4.jpg)"></div>
+        <section class="image_slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(assets/sec1.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(assets/sec2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(assets/sec3.jpg)"></div>
+                    <!--  <div class="swiper-slide" style="background-image:url(assets/nature-4.jpg)"></div>
               <div class="swiper-slide" style="background-image:url(assets/nature-5.jpg)"></div>
               <div class="swiper-slide" style="background-image:url(assets/nature-6.jpg)"></div>
               <div class="swiper-slide" style="background-image:url(assets/nature-7.jpg)"></div>
               <div class="swiper-slide" style="background-image:url(assets/nature-8.jpg)"></div>
               <div class="swiper-slide" style="background-image:url(assets/nature-9.jpg)"></div>
               <div class="swiper-slide" style="background-image:url(assets/nature-10.jpg)"></div> -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-          </div>
-         </section>
+        </section>
         <footer class="contactclss" id="contact">
             <div class="leftfooter">
-                <div class="lftop"><div class="footerimage"><div class="arimage"><a href=""><img src="./AR wepage assets/logo.svg" width="50px" alt=""></a></div>
-                <div class="firstname"><h3>Alphin Roy</h3></div></div>
-                <div class="phonenumber"><a href="tel:+91 9946839005"><h4><i class="fa fa-phone"></i> +91 9946839005</h4></a></div></div>
-            <div class="mysocials" id="mysocial">
-                <h3>My Socials</h3>
+                <div class="lftop">
+                    <div class="footerimage">
+                        <div class="arimage"><a href=""><img src="./AR wepage assets/logo.svg" width="50px" alt=""></a>
+                        </div>
+                        <div class="firstname">
+                            <h3>Alphin Roy</h3>
+                        </div>
+                    </div>
+                    <div class="phonenumber"><a href="tel:+91 9946839005">
+                            <h4><i class="fa fa-phone"></i> +91 9946839005</h4>
+                        </a></div>
+                </div>
+                <div class="mysocials" id="mysocial">
+                    <h3>My Socials</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/alphin.roy" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/alphinroy" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/alphin_roy2000/" target="_blank"
+                                rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/alphin-roy-a2353172/" target="_blank"
+                                rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/alphin-roy2000" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.snapchat.com/add/walking_toddler" target="_blank"
+                                rel="noopener noreferrer"><i class="fa fa-snapchat"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line">
+                <div class="outer">
+                    <div class="inner"></div>
+                </div>
+            </div>
+            <div class="sitemap">
+                <h2>SITEMAP</h2>
                 <ul>
-                    <li><a href="https://www.facebook.com/alphin.roy" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/alphinroy" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/alphin_roy2000/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/alphin-roy-a2353172/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/alphin-roy2000" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.snapchat.com/add/walking_toddler" target="_blank" rel="noopener noreferrer"><i class="fa fa-snapchat"></i></a></li>
+                    <li><a class="active" href="">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="">About me</a></li>
+                    <li><a href="">Contact</a></li>
+
+                    <li><a href="">Photography Page</a></li>
                 </ul>
             </div>
-            </div>
-            <div class="center"></div>
             <div class="rightfooter">
-                
+
             </div>
-            <div class="copyrightabove"><hr class="copyrightline"></div>
-            <div class="copyright"><h5>© 2020 <a href="https://github.com/alphin-roy2000" target="_blank" rel="noopener noreferrer">Alphin Roy</a>. All rights reserved</h5></div>
+            <div class="copyrightabove">
+                <hr class="copyrightline">
+            </div>
+            <div class="copyright">
+                <h5>© 2020 <a href="https://github.com/alphin-roy2000" target="_blank" rel="noopener noreferrer">Alphin
+                        Roy</a>. All rights reserved</h5>
+            </div>
         </footer>
 
     </div>
-    
+
 
     <script>document.addEventListener("DOMContentLoaded", function (event) {
             const list = document.getElementsByClassName('burger')
@@ -174,13 +217,13 @@
                     element.classList.toggle('open');
                 });
         });</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-<script src="./AR wepage assets/js01.js"></script>        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="./AR wepage assets/js01.js"></script>
 </body>
 
 </html>
 
- <!-- <svg viewBox="0 0 960 300">
+<!-- <svg viewBox="0 0 960 300">
                     <symbol id="s-text">
                         <text text-anchor="middle" x="50%" y="80%">Alphin  Roy</text>
                     </symbol>
@@ -194,7 +237,7 @@
                     </g>
                 </svg> -->
 
-                <!-- <script>// Wrap every letter in a span
+<!-- <script>// Wrap every letter in a span
         var textWrapper = document.querySelector('.ml12');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
         
@@ -217,7 +260,7 @@
         //   })
         ;</script> -->
 
-         <!-- <div class="mouse_scroll">
+<!-- <div class="mouse_scroll">
 
                     <div class="mouse">
                         <div class="wheel"></div>

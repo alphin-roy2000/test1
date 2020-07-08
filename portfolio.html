@@ -1,76 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>@import url(https://fonts.googleapis.com/css?family=Oswald:700);
-* {
-	margin: 0;
-}
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="scroll-down.css">
 
-body {
-	background: red;
-	overflow-x: hidden;
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-div {
-	position: relative;
-	height: 80vh;
-}
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
 
-#top p {
-	font-family: Oswald, sans-serif;
-	font-size: 40vh;
-	line-height: 0;
-	position: absolute;
-  color: white;
-	bottom: 15vh;
-	left: 5vw;
-	transform: rotateZ(8deg);
-}
-
-#top::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-style: solid;
-	border-color: transparent;
-	/* border-width: 10vh 50vw; */
-	border-bottom-color: black;
-	border-right-color: black;
-}
-
-#middle {
-	background: black;
-}
-
-#middle::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-style: solid;
-	border-color: transparent;
-	border-width: 20vh 50vw;
-	border-bottom-color: white;
-	border-left-color: white;
-}
-
-#bottom {
-	background: white;
-	height: 40vh;
-}</style>
-
-</head>
-<body>
-  <div id="top">
-    <p>SLANTED</p>
-    </div>
-    <div id="middle"></div>
-    <div id="bottom"></div>
-</body>
-</html>
+<section class="company-heading intro-type" id="parallax-one">
+   <div class="container">
+      <div class="row product-title-info">
+         <div class="col-md-12">
+            <h1>
+               DATA. DATA. DATA.
+            </h1>
+            <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="images/arrow-down-1.png"></a>
+         </div>
+      </div>
+   </div>
+   <div class="parallax" id="parallax-cta" style="background-image:url(https://www.solodev.com/assets/anchor/company-hero2.jpg);">
+      &nbsp;
+   </div>
+</section>
+<div class="main">
+   <section id="section2">
+      <div class="container jumbo">
+         <div class="jumbotron">
+            <h2>Let Big Data Change the Game</h2>
+            <p>WebCorpCo is all about making sure your marketing stack is in alignment with your company as well as the customers you serve. There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+         </div>
+   </section>
+   </div>
+</div>
