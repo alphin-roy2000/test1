@@ -889,3 +889,63 @@ hr.copyrightline {
   margin-left: auto;
   margin-right: auto;
 }
+.leftfooter{
+  position: absolute;
+ 
+    transform: translate(100px,100px);
+
+}
+.footerimage{
+  display: inline-flex;
+  }
+.footerimage .firstname h3{
+  
+  margin: 5px;
+  color: #30CFD0;
+  font-weight: 100;
+  font-family: 'Alegreya', serif;
+}
+.mysocials{
+  margin-top: 40px;
+}
+.mysocials h3{
+  font:  'Montserrat';
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.795);
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  
+
+}
+.mysocials ul{
+  text-align: center;
+  display: inline-flex;
+}
+.mysocials ul li a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  
+  margin: 5px;
+  border-radius: 100%;
+  /* box-shadow: 0 5px 15px -5px #00000070; */
+  overflow: hidden;
+  position: relative;
+}
+.mysocials ul li a i{
+  color: #949090;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.mysocials ul li a:hover{
+  background-color: #302a2a63;
+  box-shadow: 0 5px 15px -5px #00000070;
+  
+}
+.mysocials ul li a:hover i{
+  color: rgba(255, 255, 255, 0.863);
+  
+}
